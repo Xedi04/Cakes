@@ -1,0 +1,489 @@
+@import "mixin";
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 32px;
+}
+
+.about {
+    @include section;
+
+    .us {
+        width: 1300px;
+        @include flex;
+        padding: 100px 0;
+        justify-content: space-between;
+
+        .us-a {
+            width: 600px;
+            @include flex-d;
+            gap: 40px;
+
+            .we {
+                width: 100%;
+                @include flex-c;
+                gap: 30px;
+
+                .head {
+                    width: 70%;
+                    @include flex-c;
+                    gap: 30px;
+
+                    h5 {
+                        font-size: $h5;
+                        color: $o;
+                        font-family: $f5;
+                    }
+
+                    h2 {
+                        font-size: $h2;
+                        font-family: $f2;
+                    }
+
+                }
+
+                p {
+                    font-size: $p;
+                    font-family: $f;
+                }
+            }
+
+            .leave {
+                width: 100%;
+                @include flex;
+                justify-content: space-between;
+
+                .for {
+                    width: 170px;
+                    height: 170px;
+
+                    img {
+                        @include img;
+                    }
+                }
+            }
+        }
+
+        .us-b {
+            width: 600px;
+            height: 500px;
+            position: relative;
+            border-radius: 5px;
+
+            img {
+                @include img;
+                border-radius: 5px;
+            }
+
+            .icon {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: $o;
+                @include flex;
+                position: absolute;
+                top: 215px;
+                left: 265px;
+
+                i {
+                    font-size: 30px;
+                    color: $w;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
+
+.cakes {
+    @include section;
+    padding: 150px 0;
+    flex-direction: column;
+    gap: 100px;
+
+    .un {
+        width: 1300px;
+
+        .our {
+            width: 400px;
+            @include flex-c;
+            gap: 30px;
+
+            h5 {
+                font-size: $h5;
+                color: $o;
+                font-family: $f5;
+            }
+
+            h2 {
+                font-size: $h2;
+                font-family: $f2;
+            }
+        }
+
+    }
+
+
+    .taste {
+        width: 1450px;
+        @include flex;
+
+        .pancake {
+            width: 100%;
+            @include flex;
+            justify-content: space-between;
+
+            .cup {
+                width: 260px;
+                height: 400px;
+                position: relative;
+
+                img {
+                    @include img;
+                }
+
+                .money {
+                    width: 70px;
+                    height: 70px;
+                    background-color: $o;
+                    color: $w;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    @include flex;
+                    font-size: 25px;
+
+                }
+
+                .bread {
+                    width: 100%;
+                    height: 60px;
+                    background-color: $o;
+                    color: $w;
+                    @include flex;
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 25px;
+                }
+            }
+            .cup1 {
+                width: 260px;
+                height: 400px;
+                position: relative;
+
+                img {
+                    @include img;
+                }
+
+                .money {
+                    width: 70px;
+                    height: 70px;
+                    background-color: $o;
+                    color: $w;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    @include flex;
+                    font-size: 25px;
+
+                }
+
+                .bread {
+                    width: 100%;
+                    height: 60px;
+                    background-color: $o;
+                    color: $w;
+                    @include flex;
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    @include section;
+    background-image: url('https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .us {
+        width: 1300px;
+        @include flex;
+        justify-content: space-between;
+        padding: 200px 0;
+
+        .phone {
+            width: 600px;
+            @include flex-d;
+            gap: 50px;
+
+
+            .number {
+                width: 100%;
+                color: $w;
+                @include flex-c;
+                gap: 30px;
+
+                h5 {
+                    font-size: $h5;
+                    font-family: $f5;
+                }
+
+                h2 {
+                    font-size: $h2;
+                    font-family: $f2;
+                }
+
+                p {
+                    font-size: $p;
+                    font-family: $f;
+                }
+            }
+
+            .email {
+                width: 100%;
+                @include flex;
+                justify-content: space-between;
+
+                .email-a {
+                    width: 270px;
+                    height: 200px;
+                    background-color: $w;
+                    border-radius: 5px;
+                    @include flex-d;
+                    position: relative;
+                    gap: 15px;
+
+                    h3 {
+                        font-size: 25px;
+                        font-family: $f2;
+                    }
+
+                    p {
+                        font-size: $p;
+                        font-family: $f;
+
+                        &:hover {
+                            color: $o;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .tel {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        background-color: $o;
+                        position: absolute;
+                        top: -35px;
+                        left: 100px;
+                        @include flex;
+
+                        i {
+                            font-size: 30px;
+                            color: $w;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .table {
+            width: 600px;
+            @include flex-d;
+            background-color: $w;
+            border-radius: 7px;
+            padding: 10px;
+
+            .time {
+                width: 100%;
+                @include flex;
+                padding: 10px 0;
+
+                h3 {
+                    font-size: $h3;
+                }
+            }
+
+            .name {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                input {
+                    width: 280px;
+                    padding: 12px 20px;
+                    margin: 10px 0;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                }
+
+                select {
+                    width: 280px;
+                    padding: 12px 20px;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                    margin: 10px 0;
+                }
+            }
+
+            .make {
+                width: 100%;
+
+                textarea {
+                    width: 100%;
+                    height: 150px;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    border: 1px solid gray;
+                    border-radius: 4px;
+                }
+
+                input {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 10px 0;
+                    border: none;
+                    border-radius: 4px;
+                    color: $w;
+                    font-size: 15px;
+                    @include flex;
+                    background-color: $o;
+
+                    &:hover {
+                        opacity: .8;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:576px) {
+
+    .about {
+        width: 100%;
+        
+
+        .container {
+           padding:0 10px;
+
+            .us {
+                width: 100%;
+                flex-direction: column;
+                gap: 30px;
+              
+
+                .us-a {
+                    width: 90%;
+                    
+                    .leave{
+                        width: 100%;
+                        justify-content: space-between;
+
+                        .for{
+                            width: 120px;
+                            height: 120px;
+                        }
+                    }
+
+                }
+
+                .us-b {
+                    width: 90%;
+                    height: 90%;
+                    .icon{
+                        left: 180px;
+                        top: 160px;
+                    }
+                }
+            }
+        }
+    }
+
+    .cakes{
+        width: 100%;
+         .container{
+            padding: 0 10px;
+            .un{
+                width: 100%;
+            }
+            
+         }
+         .taste{
+            width: 100%;
+            .pancake{
+                width: 100%;
+                padding: 0 30px;
+                .cup{
+                    display: none;
+                }
+                .cup1{
+                   width: 100%;
+                }
+            }
+         }
+    }
+
+    .contact{
+        width: 100%;
+        padding: 0 10px;
+        .container{
+            padding: 0 10px;
+            .us{
+                width: 100%;
+                flex-direction: column;
+                gap: 30px;
+                .phone{
+                    width: 100%;
+                    .email{
+                        flex-direction: column;
+                        gap: 50px;
+                        .email-a{
+                            width: 100%;
+                           .tel{
+                            left: 200px;
+                           }
+                        }
+                    }
+                }
+                .table{
+                    width: 100%;
+                     .name{
+                        width: 100%;
+                        flex-direction: column;
+                        input{
+                            width: 100%;
+                        }
+                        form{
+                            width: 100%;
+                            select{
+                                width: 100%;
+                            }
+                        }
+                     }
+                }
+            }
+        }
+    }
+}

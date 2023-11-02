@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0px 32px;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .us {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  justify-content: space-between;
+}
+.about .us .us-a {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.about .us .us-a .we {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about .us .us-a .we .head {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about .us .us-a .we .head h5 {
+  font-size: 15px;
+  color: rgb(236, 31, 31);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.about .us .us-a .we .head h2 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+}
+.about .us .us-a .we p {
+  font-size: 17px;
+  font-family: "Slabo 27px", serif;
+}
+.about .us .us-a .leave {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.about .us .us-a .leave .for {
+  width: 170px;
+  height: 170px;
+}
+.about .us .us-a .leave .for img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .us .us-b {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  border-radius: 5px;
+}
+.about .us .us-b img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.about .us .us-b .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(236, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 215px;
+  left: 265px;
+}
+.about .us .us-b .icon i {
+  font-size: 30px;
+  color: white;
+}
+.about .us .us-b .icon:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.cakes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+  flex-direction: column;
+  gap: 100px;
+}
+.cakes .un {
+  width: 1300px;
+}
+.cakes .un .our {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cakes .un .our h5 {
+  font-size: 15px;
+  color: rgb(236, 31, 31);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.cakes .un .our h2 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+}
+.cakes .taste {
+  width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cakes .taste .pancake {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.cakes .taste .pancake .cup {
+  width: 260px;
+  height: 400px;
+  position: relative;
+}
+.cakes .taste .pancake .cup img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cakes .taste .pancake .cup .money {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(236, 31, 31);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.cakes .taste .pancake .cup .bread {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(236, 31, 31);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+}
+.cakes .taste .pancake .cup1 {
+  width: 260px;
+  height: 400px;
+  position: relative;
+}
+.cakes .taste .pancake .cup1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cakes .taste .pancake .cup1 .money {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(236, 31, 31);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.cakes .taste .pancake .cup1 .bread {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(236, 31, 31);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.contact .us {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 200px 0;
+}
+.contact .us .phone {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact .us .phone .number {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact .us .phone .number h5 {
+  font-size: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.contact .us .phone .number h2 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+}
+.contact .us .phone .number p {
+  font-size: 17px;
+  font-family: "Slabo 27px", serif;
+}
+.contact .us .phone .email {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.contact .us .phone .email .email-a {
+  width: 270px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+}
+.contact .us .phone .email .email-a h3 {
+  font-size: 25px;
+  font-family: "Archivo Black", sans-serif;
+}
+.contact .us .phone .email .email-a p {
+  font-size: 17px;
+  font-family: "Slabo 27px", serif;
+}
+.contact .us .phone .email .email-a p:hover {
+  color: rgb(236, 31, 31);
+  cursor: pointer;
+}
+.contact .us .phone .email .email-a .tel {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(236, 31, 31);
+  position: absolute;
+  top: -35px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .us .phone .email .email-a .tel i {
+  font-size: 30px;
+  color: white;
+}
+.contact .us .table {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+.contact .us .table .time {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.contact .us .table .time h3 {
+  font-size: 30px;
+}
+.contact .us .table .name {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact .us .table .name input {
+  width: 280px;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.contact .us .table .name select {
+  width: 280px;
+  padding: 12px 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.contact .us .table .make {
+  width: 100%;
+}
+.contact .us .table .make textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.contact .us .table .make input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 31, 31);
+}
+.contact .us .table .make input:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    width: 100%;
+  }
+  .about .container {
+    padding: 0 10px;
+  }
+  .about .container .us {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about .container .us .us-a {
+    width: 90%;
+  }
+  .about .container .us .us-a .leave {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .about .container .us .us-a .leave .for {
+    width: 120px;
+    height: 120px;
+  }
+  .about .container .us .us-b {
+    width: 90%;
+    height: 90%;
+  }
+  .about .container .us .us-b .icon {
+    left: 180px;
+    top: 160px;
+  }
+  .cakes {
+    width: 100%;
+  }
+  .cakes .container {
+    padding: 0 10px;
+  }
+  .cakes .container .un {
+    width: 100%;
+  }
+  .cakes .taste {
+    width: 100%;
+  }
+  .cakes .taste .pancake {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .cakes .taste .pancake .cup {
+    display: none;
+  }
+  .cakes .taste .pancake .cup1 {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .contact .container {
+    padding: 0 10px;
+  }
+  .contact .container .us {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contact .container .us .phone {
+    width: 100%;
+  }
+  .contact .container .us .phone .email {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contact .container .us .phone .email .email-a {
+    width: 100%;
+  }
+  .contact .container .us .phone .email .email-a .tel {
+    left: 200px;
+  }
+  .contact .container .us .table {
+    width: 100%;
+  }
+  .contact .container .us .table .name {
+    width: 100%;
+    flex-direction: column;
+  }
+  .contact .container .us .table .name input {
+    width: 100%;
+  }
+  .contact .container .us .table .name form {
+    width: 100%;
+  }
+  .contact .container .us .table .name form select {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

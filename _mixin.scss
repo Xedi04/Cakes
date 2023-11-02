@@ -1,0 +1,24 @@
+@mixin section{
+    width: 100%;
+    @include flex;
+}
+
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-d{
+    @include flex;
+    flex-direction: column;
+}
+@mixin flex-c{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
